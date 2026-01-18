@@ -1,7 +1,7 @@
 # Path to configuration file for data processing and model training
 data_paths:
   input: "data/raw/sales_data.xlsx"
-  output: "data/processed/cleaned_data.csv"
+  output: "data/processed/sales_predictions.xlsx"
 
 # Parameters for data processing
 model_params:
