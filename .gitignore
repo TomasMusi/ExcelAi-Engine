@@ -1,0 +1,25 @@
+# Python - automatically generated files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Data and Models
+# We dont want to track large data files and models
+data/raw/*.xlsx
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+models/*.pth
+
+# Configuration with sensitive data
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS specific files
+.DS_Store
+Thumbs.db

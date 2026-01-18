@@ -1,0 +1,15 @@
+# Path to configuration file for data processing and model training
+data_paths:
+  input: "data/raw/sales_data.xlsx"
+  output: "data/processed/cleaned_data.csv"
+
+# Parameters for data processing
+model_params:
+  n_estimators: 150
+  max_depth: 10
+  random_state: 42
+
+# Definition of columns in Excel file
+features:
+  categorical: ["Den_v_tydnu", "Kategorie", "Promo_akce"]
+  target: "Prodano_kusu"
